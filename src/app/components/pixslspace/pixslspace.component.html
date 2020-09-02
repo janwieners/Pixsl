@@ -1,0 +1,7 @@
+<div class="content">
+  <span class="dot"
+        *ngFor="let char of text"
+        title="{{char}}"
+        [ngStyle]="{'background-color': colorCodes[char]}">
+  </span>
+</div>

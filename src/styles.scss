@@ -44,7 +44,11 @@ body a {
 
 #pixslspace {
   grid-area: pixslspace;
-  background-color: #8EE3F5;
+  background-color: #fff;
+}
+
+#pixslspace .content {
+  padding: 15px;
 }
 
 #sidebar {

@@ -55,7 +55,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/randomcolor/randomColor.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,7 +121,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/randomcolor/randomColor.js"
+            ]
           }
         },
         "lint": {
